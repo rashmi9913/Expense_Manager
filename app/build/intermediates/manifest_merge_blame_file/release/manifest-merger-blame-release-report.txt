@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="lk.ac.mrt.cse.dbs.simpleexpensemanager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:6:9-35
+13        android:icon="@mipmap/ic_launcher"
+13-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:7:9-43
+14        android:label="@string/app_name"
+14-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:8:9-41
+15        android:supportsRtl="true"
+15-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:9:9-35
+16        android:theme="@style/AppTheme" >
+16-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:10:9-40
+17        <activity
+17-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:11:9-20:20
+18            android:name="lk.ac.mrt.cse.dbs.simpleexpensemanager.ui.MainActivity"
+18-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:12:13-44
+19            android:label="@string/app_name"
+19-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:13:13-45
+20            android:theme="@style/AppTheme.NoActionBar" >
+20-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:14:13-56
+21            <intent-filter>
+21-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:15:13-19:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:16:17-68
+22-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:16:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:18:17-76
+24-->E:\Android Studio Projects\ExpenseManager\app\src\main\AndroidManifest.xml:18:27-74
+25            </intent-filter>
+26        </activity>
+27
+28        <meta-data
+28-->[com.android.support:design:26.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d1d1709d55c8ab5fa359ce49bd908eb5\design-26.1.0\AndroidManifest.xml:26:9-28:38
+29            android:name="android.support.VERSION"
+29-->[com.android.support:design:26.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d1d1709d55c8ab5fa359ce49bd908eb5\design-26.1.0\AndroidManifest.xml:27:13-51
+30            android:value="26.1.0" />
+30-->[com.android.support:design:26.1.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d1d1709d55c8ab5fa359ce49bd908eb5\design-26.1.0\AndroidManifest.xml:28:13-35
+31        <meta-data
+31-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\940f5e7524450f821fdfed84e74cdc3a\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+32            android:name="android.arch.lifecycle.VERSION"
+32-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\940f5e7524450f821fdfed84e74cdc3a\runtime-1.0.0\AndroidManifest.xml:26:13-58
+33            android:value="27.0.0-SNAPSHOT" />
+33-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\User\.gradle\caches\transforms-2\files-2.1\940f5e7524450f821fdfed84e74cdc3a\runtime-1.0.0\AndroidManifest.xml:27:13-44
+34    </application>
+35
+36</manifest>
